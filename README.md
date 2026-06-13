@@ -118,7 +118,7 @@ The decision gateway then chooses one of:
 
 ---
 
-> ### Note before you begin
+> [!Note]
 >
 > This project was created for the **Microsoft Agents League 2026** hackathon. It
 > is a working prototype, built with genuine care, but on a tight deadline – so
