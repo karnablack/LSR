@@ -127,7 +127,7 @@ The decision gateway then chooses one of:
 >
 > If something doesn't work perfectly, please do let me know, I'd
 > love to improve it. Thank you for taking the time to explore LSR. **I really
-> hope you enjoy it.** 💜
+> hope you enjoy it.** 💙
 
 ---
 
