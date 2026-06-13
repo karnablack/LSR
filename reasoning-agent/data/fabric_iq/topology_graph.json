@@ -1,0 +1,38 @@
+{
+  "enterprise_organism": "Global Logistics Platform",
+  "environment": "Production-Tier-A",
+  "currency": "EUR",
+  "_note": "SYNTHETIC demo data. Fictional assets and business processes. No real or confidential information.",
+  "nodes": [
+    {
+      "asset_id": "db_5",
+      "asset_name": "PostgreSQL Primary Cluster",
+      "environment": "production",
+      "impacted_business_process": "Berlin Autonomous Warehouse Hub",
+      "sla_tier": 1,
+      "financial_leak_per_minute_eur": 2500.00,
+      "criticality_index": 0.95,
+      "sla_breach_threshold_seconds": 30
+    },
+    {
+      "asset_id": "gateway_2",
+      "asset_name": "Edge API Gateway Routing Layer",
+      "environment": "production",
+      "impacted_business_process": "Dynamic Order Transit Matrices",
+      "sla_tier": 1,
+      "financial_leak_per_minute_eur": 1250.00,
+      "criticality_index": 0.45,
+      "sla_breach_threshold_seconds": 30
+    },
+    {
+      "asset_id": "test_dev_3",
+      "asset_name": "Staging Sandbox",
+      "environment": "development",
+      "impacted_business_process": "Internal Engineering Playground",
+      "sla_tier": 4,
+      "financial_leak_per_minute_eur": 0.00,
+      "criticality_index": 0.05,
+      "sla_breach_threshold_seconds": 300
+    }
+  ]
+}

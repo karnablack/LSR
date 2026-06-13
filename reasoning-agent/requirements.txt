@@ -1,0 +1,14 @@
+# LSR Synaptic Response Center — backend dependencies
+# Vendor-neutral: the `openai` SDK speaks to OpenAI, Azure OpenAI/Foundry, and any
+# OpenAI-compatible local runtime (Ollama, LM Studio, vLLM). No model is required
+# to run — LSR ships a deterministic offline mode.
+#
+# Minimums track current releases; `>=` lets pip pick prebuilt wheels for your
+# Python (tested on 3.10–3.13).
+
+fastapi>=0.136.3
+uvicorn[standard]>=0.49.0
+openai>=2.41.1
+requests>=2.34.2
+python-dotenv>=1.2.2
+pydantic>=2.13.4

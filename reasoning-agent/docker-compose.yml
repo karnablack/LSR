@@ -1,0 +1,19 @@
+# LSR backend — local container runtime.
+# Secrets are supplied via an (optional, git-ignored) .env file, never baked in.
+services:
+  lsr-core:
+    build: .
+    image: lsr/reasoning-core:latest
+    container_name: lsr_reasoning_core
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      # Optional: LSR runs fully in offline mode with no .env present.
+      - path: .env
+        required: false
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3

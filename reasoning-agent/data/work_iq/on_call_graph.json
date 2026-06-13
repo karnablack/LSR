@@ -1,0 +1,27 @@
+{
+  "rotation_team": "DevOps Incident Response Rotation",
+  "signals_timestamp": "2026-06-11T20:45:00Z",
+  "_note": "SYNTHETIC demo data. All identifiers are fictional. No real people or PII.",
+  "directory": [
+    {
+      "user_id": "ENG-101",
+      "display_name": "Morgan Reyes (Primary)",
+      "role": "Primary On-Call Systems Engineer",
+      "m365_presence": "Offline",
+      "calendar_status": "Out-of-Office",
+      "device_connectivity": "Mobile-Only",
+      "consecutive_hours_worked": 14,
+      "routing_priority": 1
+    },
+    {
+      "user_id": "ENG-102",
+      "display_name": "Sam Smith (Backup)",
+      "role": "Secondary Backup Operations Engineer",
+      "m365_presence": "Online",
+      "calendar_status": "Available",
+      "device_connectivity": "Workstation-Active",
+      "consecutive_hours_worked": 2,
+      "routing_priority": 2
+    }
+  ]
+}
